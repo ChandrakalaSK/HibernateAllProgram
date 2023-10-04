@@ -1,0 +1,13 @@
+package com.pwskills;
+
+public class PokedexIniti {
+
+	public static void main(String[] args)
+	{
+		Pokeman p1= new Pokeman();
+		p1.setName("guarav");
+		p1.setPower(100);
+		p1.setType("electrical");
+	}
+
+}

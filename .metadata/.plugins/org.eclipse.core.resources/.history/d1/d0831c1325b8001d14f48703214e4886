@@ -1,0 +1,36 @@
+package corejava;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public class Studentt implements Serializable{
+	  private static final long serialVersionUID = 1L;
+	    private String name = "Divya Prakash";
+	    private Integer age = 24;
+	    transient private Integer id = 2;
+
+	    Studentt() {
+	        System.out.println("student constructor called");
+	    }
+
+	    private void writeObject(ObjectOutputStream oos) throws IOException {
+	        oos.defaultWriteObject();
+	        Integer eid = id * 24;
+	        oos.writeObject(eid);
+	    }
+
+	    private void readObject(ObjectInputStream ois) throws IOException, ClassNotFoundException {
+	        ois.defaultReadObject();
+	        Integer nid = (Integer) ois.readObject();
+	        id = nid / 24;
+	    }
+
+	    public void display() {
+	        System.out.println("name :: " + name);
+	        System.out.println("age :: " + age);
+	        System.out.println("id :: " + id);
+	    }
+
+}

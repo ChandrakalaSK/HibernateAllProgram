@@ -1,0 +1,10 @@
+package com.pwskills;
+
+public class PokedexIniti {
+
+	public static void main(String[] args)
+	{
+
+	}
+
+}

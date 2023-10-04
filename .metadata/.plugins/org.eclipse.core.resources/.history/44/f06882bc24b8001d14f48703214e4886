@@ -1,0 +1,33 @@
+package corejava;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class Ser2 {
+
+	public static void main(String[] args) {
+		  Teacher t = new Teacher();
+	        Studentt std = new Studentt();
+	        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("studentt.ser"));
+	        oos.writeObject(t);
+	        oos.writeObject(std);
+	        oos.close();
+	        System.out.println("--------------------------");
+	        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("studentt.ser"));
+	        Object obj = ois.readObject();
+	        if (obj instanceof Teacher) {
+	            Teacher t1 = (Teacher) obj;
+	            t1.display();
+	        }
+
+	        System.out.println("**");
+
+	        if (obj instanceof Studentt) {
+	            Studentt s1 = (Studentt) obj;
+	            s1.display();
+	        }
+	        ois.close();
+
+	}
+
+}

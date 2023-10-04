@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;HB-13-HibernateTimeStampApp&apos; to &apos;HB-16-HibernateTimeStampApp&apos;&#x0D;&#x0A;- Original element: &apos;HB-13-HibernateTimeStampApp&apos;&#x0D;&#x0A;- Renamed element: &apos;HB-13-HibernateTimeStampApp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;HB-13-HibernateTimeStampApp&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=HB-13-HibernateTimeStampApp" name="HB-16-HibernateTimeStampApp" references="true" stamp="1679808590914" version="1.0"/>
+</session>

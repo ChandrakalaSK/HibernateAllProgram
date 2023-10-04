@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;HB1-DB-Record-Sychronization&apos; to &apos;HB1-DB-Entity-Sychronization&apos;&#x0D;&#x0A;- Original element: &apos;HB1-DB-Record-Sychronization&apos;&#x0D;&#x0A;- Renamed element: &apos;HB1-DB-Record-Sychronization&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;HB1-DB-Record-Sychronization&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=HB1-DB-Record-Sychronization" name="HB1-DB-Entity-Sychronization" references="true" stamp="1678616103978" version="1.0"/>
+</session>

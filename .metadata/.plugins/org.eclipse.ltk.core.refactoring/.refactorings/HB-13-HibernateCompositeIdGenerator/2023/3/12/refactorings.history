@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;InsertRecordApp.java&apos; to &apos;HB-13-HibernateTimeStampApp/src/in.ineuron.Test&apos;&#x0D;&#x0A;- Original project: &apos;HB-13-HibernateCompositeIdGenerator&apos;&#x0D;&#x0A;- Destination element: &apos;HB-13-HibernateTimeStampApp/src/in.ineuron.Test&apos;&#x0D;&#x0A;- Original element: &apos;in.ineuron.Test.InsertRecordApp.java&apos;" description="Copy compilation unit" destination="=HB-13-HibernateTimeStampApp/src&lt;in.ineuron.Test" element1="/src&lt;in.ineuron.Test{InsertRecordApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1679738921460" units="1" version="1.0"/>
+</session>
